@@ -15,7 +15,7 @@ const app = express();
 
 // ✅ Custom CORS Middleware
 app.use(cors({
-  origin: 'https://your-frontend.vercel.app', // Replace with your actual frontend URL
+  origin: 'https://mernblog-webapp.vercel.app/', // Replace with your actual frontend URL
   credentials: true
 }));
 
